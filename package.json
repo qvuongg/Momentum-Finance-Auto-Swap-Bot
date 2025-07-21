@@ -1,0 +1,40 @@
+{
+  "name": "momentum-finance-bot",
+  "version": "1.0.0",
+  "description": "Automated token swap bot for Momentum Finance on Sui blockchain",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sui",
+    "blockchain",
+    "momentum-finance",
+    "clmm",
+    "swap",
+    "bot",
+    "defi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mmt-finance/clmm-sdk": "^1.3.10-beta.1",
+    "@mysten/sui": "^1.28.2",
+    "@mysten/sui.js": "^0.54.1",
+    "axios": "^1.10.0",
+    "bn.js": "^5.2.2",
+    "decimal.js": "^10.6.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
